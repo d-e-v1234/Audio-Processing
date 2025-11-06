@@ -64,10 +64,10 @@ All functions are **pure**, producing new sound objects rather than modifying ex
 
 ## ✅ Testing and Linting
 
-<pre>
+
 Run all provided tests:
 
-pytest
+<pre>pytest test.py </pre>
 
 
 Expected output:
@@ -77,13 +77,12 @@ Expected output:
 
 Run Pylint:
 
-pylint lab.py
+<pre>pylint lab.py</pre>
 
 
 Expected output:
 
-Your code has been rated at 10.00/10
-</pre>
+<pre>Your code has been rated at 10.00/10</pre>
 
 
 ## ▶️ Example Usage
