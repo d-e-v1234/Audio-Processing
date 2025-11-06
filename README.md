@@ -62,8 +62,9 @@ All functions are **pure**, producing new sound objects rather than modifying ex
 
 ---
 
-✅ Testing and Linting
+## ✅ Testing and Linting
 
+<pre>
 Run all provided tests:
 
 pytest
@@ -82,15 +83,17 @@ pylint lab.py
 Expected output:
 
 Your code has been rated at 10.00/10
+</pre>
 
-▶️ Example Usage
+
+## ▶️ Example Usage
 from lab import load_wav, echo, save_wav
 
 sound = load_wav("sounds/input.wav")
 processed = echo(sound, num_echoes=3, delay=0.4, scale=0.6)
 save_wav(processed, "sounds/output_echo.wav")
 
-📦 Requirements
+## 📦 Requirements
 
 Python 3.10+
 
