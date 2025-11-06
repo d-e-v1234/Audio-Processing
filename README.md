@@ -47,10 +47,6 @@ All functions are **pure**, producing new sound objects rather than modifying ex
 
 <pre> audio_processing_lab/
 │
-├── .pytest_cache/ # Cached test data
-├── .ruff_cache/ # Ruff linter cache (if used)
-├── pycache/ # Compiled Python files
-│
 ├── sounds/ # (Optional) Example .wav files for experimentation
 ├── test_inputs/ # Test input files provided by MIT
 ├── test_outputs/ # Expected output files for pytest comparison
