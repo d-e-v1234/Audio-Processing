@@ -72,7 +72,7 @@ Run all provided tests:
 
 Expected output:
 
-================== 100% tests passed ==================
+<pre>================== 100% tests passed ==================</pre>
 
 
 Run Pylint:
