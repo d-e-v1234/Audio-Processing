@@ -86,15 +86,15 @@ Expected output:
 
 
 ## ▶️ Example Usage
-from lab import load_wav, echo, save_wav
+<pre>from lab import load_wav, echo, save_wav
 
 sound = load_wav("sounds/input.wav")
 processed = echo(sound, num_echoes=3, delay=0.4, scale=0.6)
-save_wav(processed, "sounds/output_echo.wav")
+save_wav(processed, "sounds/output_echo.wav")</pre>
 
 ## 📦 Requirements
 
-Python 3.10+
+<pre>Python 3.10+
 
 pytest (for testing)
 
@@ -102,7 +102,7 @@ pylint (for code quality)
 
 Install all dependencies:
 
-pip install pytest pylint
+pip install pytest pylint</pre>
 
 🧾 License
 
