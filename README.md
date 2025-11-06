@@ -1,6 +1,6 @@
 # 🎧 MIT 6.101 – Audio Processing Lab (Fall 2025)
 
-This repository contains my completed implementation of the **Audio Processing Lab** from [MIT 6.101: Introduction to EECS I](https://py.mit.edu/fall25/labs/audio_processing).
+This repository contains my completed implementation of the **Audio Processing Lab** from [MIT 6.101: Fundamentals of Programming](https://py.mit.edu/fall25/labs/audio_processing).
 
 All functionality has been fully implemented and verified:
 - ✅ All provided **pytest** tests passed  
