@@ -65,22 +65,22 @@ All functions are **pure**, producing new sound objects rather than modifying ex
 ## ✅ Testing and Linting
 
 
-Run all provided tests:
+- Run all provided tests:
 
 <pre>pytest test.py </pre>
 
 
-Expected output:
+- Expected output:
 
 <pre>================== 100% tests passed ==================</pre>
 
 
-Run Pylint:
+- Run Pylint:
 
 <pre>pylint lab.py</pre>
 
 
-Expected output:
+- Expected output:
 
 <pre>Your code has been rated at 10.00/10</pre>
 
@@ -104,7 +104,7 @@ Install all dependencies:
 
 pip install pytest pylint</pre>
 
-🧾 License
+## 🧾 License
 
 This repository follows MIT’s educational fair-use guidelines.
 All implementation work is my own unless explicitly attributed.
