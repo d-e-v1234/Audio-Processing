@@ -45,28 +45,12 @@ All functions are **pure**, producing new sound objects rather than modifying ex
 
 ## 📁 Directory Structure
 
-audio_processing_lab/
-│
-├── .pytest_cache/ # Cached test data
-├── .ruff_cache/ # Ruff linter cache (if used)
-├── pycache/ # Compiled Python files
-│
-├── sounds/ #  Example .wav files for experimentationprovide by MIT
-├── test_inputs/ # Test input files provided by MIT
-├── test_outputs/ # Expected output files for pytest comparison
-│
-├── lab.py # Main implementation file
-├── test.py # Test suite (provided by MIT)
-├── pylintrc # Custom linting configuration
-└── README.md # Project documentation
+<pre> audio_processing_lab/ │ ├── .pytest_cache/ # Cached test data ├── .ruff_cache/ # Ruff linter cache (if used) ├── __pycache__/ # Compiled Python files │ ├── sounds/ # Example .wav files for experimentation (provided by MIT) ├── test_inputs/ # Test input files provided by MIT ├── test_outputs/ # Expected output files for pytest comparison │ ├── lab.py # Main implementation file ├── test.py # Test suite (provided by MIT) ├── pylintrc # Custom linting configuration └── README.md # Project documentation </pre>
 
 ---
 
 ## ✅ Testing and Linting
 
----
-
-## ✅ Testing and Linting
 
 Run all provided tests:
 
