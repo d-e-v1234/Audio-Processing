@@ -86,11 +86,11 @@ Expected output:
 
 
 ## ▶️ Example Usage
-<pre>from lab import load_wav, echo, save_wav
+<pre>from lab import load_wav, echo, write_wav
 
 sound = load_wav("sounds/input.wav")
 processed = echo(sound, num_echoes=3, delay=0.4, scale=0.6)
-save_wav(processed, "sounds/output_echo.wav")</pre>
+write_wav(processed, "sounds/output_echo.wav")</pre>
 
 ## 📦 Requirements
 
