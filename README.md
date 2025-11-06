@@ -45,7 +45,20 @@ All functions are **pure**, producing new sound objects rather than modifying ex
 
 ## 📁 Directory Structure
 
-<pre> audio_processing_lab/ │ ├── .pytest_cache/ # Cached test data ├── .ruff_cache/ # Ruff linter cache (if used) ├── __pycache__/ # Compiled Python files │ ├── sounds/ # Example .wav files for experimentation (provided by MIT) ├── test_inputs/ # Test input files provided by MIT ├── test_outputs/ # Expected output files for pytest comparison │ ├── lab.py # Main implementation file ├── test.py # Test suite (provided by MIT) ├── pylintrc # Custom linting configuration └── README.md # Project documentation </pre>
+<pre> audio_processing_lab/
+│
+├── .pytest_cache/ # Cached test data
+├── .ruff_cache/ # Ruff linter cache (if used)
+├── pycache/ # Compiled Python files
+│
+├── sounds/ # (Optional) Example .wav files for experimentation
+├── test_inputs/ # Test input files provided by MIT
+├── test_outputs/ # Expected output files for pytest comparison
+│
+├── lab.py # Main implementation file
+├── test.py # Test suite (provided by MIT)
+├── pylintrc # Custom linting configuration
+└── README.md # Project documentation </pre>
 
 ---
 
@@ -73,14 +86,14 @@ Expected output:
 Your code has been rated at 10.00/10
 
 
-▶️ Example Usage
+# ▶️ Example Usage
 from lab import load_wav, echo, save_wav
 
 sound = load_wav("sounds/input.wav")
 processed = echo(sound, num_echoes=3, delay=0.4, scale=0.6)
 save_wav(processed, "sounds/output_echo.wav")
 
-📦 Requirements
+# 📦 Requirements
 
 Python 3.10+
 
@@ -92,7 +105,7 @@ Install all dependencies:
 
 pip install pytest pylint
 
-🧾 License
+# 🧾 License
 
 This repository follows MIT’s educational fair-use guidelines.
 All implementation work is my own unless explicitly attributed.
